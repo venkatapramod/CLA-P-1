@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+	int v,i,j;
+    float f = 70000.3255;
+    char c='b';
+    int a;
+    long b;
+    double e;
+    unsigned int m;
+    long double g;
+    short x;
+    v=4582;i=500036;
+    j=v+i;
+    x=9000;
+    printf(" the int int= %d\n",j);
+    printf("the float = %f\n",f);
+    printf("the character valule is %c",c);
+    printf("the size  of the short byte =%ld",sizeof(x));
+    printf("size of int= %ld bytes \n",sizeof(a));
+    printf("size of the long = %ld bytes \n",sizeof(b));
+    printf("size of double int =%ld bytes \n",sizeof(e));
+    printf("size of long double int = %ld bytes \n",sizeof(g));
+return 0;
+}
+
